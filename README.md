@@ -10,7 +10,7 @@
 You can install the package via composer:
 
 ```bash
-composer require bolyfci/livewire-multiselect
+composer require chasie/livewire-multiselect
 ```
 ## Usage
 

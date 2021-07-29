@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolyfci\LivewireMultiselect\View;
+namespace Chasie\LivewireMultiselect\View;
 
 use Illuminate\View\Component;
 

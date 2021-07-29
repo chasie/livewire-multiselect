@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bolyfci\\LivewireMultiselect\\LivewireMultiselectServiceProvider"
+                "Chasie\\LivewireMultiselect\\LivewireMultiselectServiceProvider"
             ],
             "aliases": {
-                "LivewireMultiselect": "Bolyfci\\LivewireMultiselect\\LivewireMultiselectFacade"
+                "LivewireMultiselect": "Chasie\\LivewireMultiselect\\LivewireMultiselectFacade"
             }
         }
     },

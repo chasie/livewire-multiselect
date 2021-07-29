@@ -1,8 +1,8 @@
 <?php
 
-namespace Bolyfci\LivewireMultiselect;
+namespace Chasie\LivewireMultiselect;
 
-use Bolyfci\LivewireMultiselect\View\Multiselect;
+use Chasie\LivewireMultiselect\View\Multiselect;
 use Illuminate\Support\Facades\Blade;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
