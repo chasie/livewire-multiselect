@@ -1,5 +1,5 @@
 <div style="width: {{$attributes->get('width') ?: "400px"}};">
-    <div x-data="dropdown()" {{$attributes->wire('model')}}>
+    <div x-data="dropdown(){{$attributes->get('key') ?? ''}}" {{$attributes->wire('model')}}>
         <div class="relative" wire:ignore>
             <div class="flex flex-col items-center relative">
                 <div class="w-full">
@@ -80,7 +80,7 @@
 
 @push('scripts')
     <script>
-        function dropdown() {
+        function dropdown{{$attributes->get('key') ?? ''}}() {
             return {
                 options: @json($options) ? @json($options) : [],
                 selected: @entangle($attributes->wire('model')),

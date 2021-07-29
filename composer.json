@@ -1,16 +1,16 @@
 {
-    "name": "bolyfci/livewire-multiselect",
+    "name": "chasie/livewire-multiselect",
     "description": "Livewire multiselect component",
     "keywords": [
-        "bolyfci",
+        "chasie",
         "livewire-multiselect"
     ],
-    "homepage": "https://github.com/bolyfci/livewire-multiselect",
+    "homepage": "https://github.com/chasie/livewire-multiselect",
     "license": "MIT",
     "authors": [
         {
-            "name": "ahmed abdelaal",
-            "email": "ahmed.abdelaal1921@mail.com",
+            "name": "Danil Tonkikh",
+            "email": "danil4863@gmail.com",
             "role": "Developer"
         }
     ],
